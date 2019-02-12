@@ -3,10 +3,10 @@ project(IdentTest)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_library(dynlib0
+add_library(dynlib0 SHARED
     dynlib0.cpp
 )
-add_library(dynlib1
+add_library(dynlib1 SHARED
     dynlib1.cpp
 )
 add_library(stalib0 STATIC
