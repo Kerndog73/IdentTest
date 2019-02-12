@@ -1,8 +1,12 @@
 #ifndef IDENT_HPP
 #define IDENT_HPP
 
+#ifndef EXPORT
+#define EXPORT
+#endif
+
 template <typename Type>
-void dummy() {}
+EXPORT void dummy() {}
 
 using ID = void (*)();
 

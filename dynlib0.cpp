@@ -1,3 +1,4 @@
+#define EXPORT __declspec(dllexport)
 #include "ident.hpp"
 
 __declspec(dllexport) void *dynlib0_tu() {
