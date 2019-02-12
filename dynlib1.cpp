@@ -1,5 +1,5 @@
 #include "ident.hpp"
 
-void *dynlib1_tu() {
+__declspec(dllexport) void *dynlib1_tu() {
   return reinterpret_cast<void *>(getID<int>());
 }
