@@ -2,8 +2,8 @@
 #include "ident.hpp"
 
 void *exec_tu();
-__declspec(dllimport) void *dynlib0_tu();
-__declspec(dllimport) void *dynlib1_tu();
+void *dynlib0_tu();
+void *dynlib1_tu();
 void *stalib0_tu();
 void *stalib1_tu();
 

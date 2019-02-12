@@ -1,6 +1,6 @@
-#define EXPORT __declspec(dllexport)
 #include "ident.hpp"
+#include "export.hpp"
 
-__declspec(dllexport) void *dynlib0_tu() {
+EXPORT void *dynlib0_tu() {
   return reinterpret_cast<void *>(getID<int>());
 }
